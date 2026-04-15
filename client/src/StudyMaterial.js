@@ -14,7 +14,10 @@ import {
 import Groq from "groq-sdk";
 
 // Initialize Groq with your active key
-
+const groq = new Groq({ 
+  apiKey: process.env.Api_key, 
+  dangerouslyAllowBrowser: true 
+});
 
 const STUDY_CONTENT = {
   "emerging-trends-(eti)": [
