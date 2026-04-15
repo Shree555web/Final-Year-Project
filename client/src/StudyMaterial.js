@@ -15,7 +15,7 @@ import Groq from "groq-sdk";
 
 // Initialize Groq with your active key
 const groq = new Groq({ 
-  apiKey: process.env.Api_key, 
+  apiKey: "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", 
   dangerouslyAllowBrowser: true 
 });
 
