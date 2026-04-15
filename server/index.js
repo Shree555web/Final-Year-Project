@@ -9,7 +9,7 @@ const app = express();
 // --- 1. CORS CONFIGURATION ---
 // Allows your React app (on port 3000) to talk to this Node server (on port 5000)
 app.use(cors({
-    origin: ['http://localhost:3000', 'http://localhost:3000'],
+    origin: ['https://final-year-project-o2q4.onrender.com', 'https://final-year-project-o2q4.onrender.com'],
     methods: ['GET', 'POST'],
     credentials: true
 }));
